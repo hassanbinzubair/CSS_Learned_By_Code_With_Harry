@@ -1,0 +1,27 @@
+/* Selecters in CSS */
+/* Universal Selecter */
+*{
+    margin: 0;
+    padding: 0;
+}
+/* Element Selecter */
+h1{
+    background-color: aqua;
+}
+p{
+    background-color: aquamarine;
+}
+/* Class Selecter */
+.hello{
+    background-color: yellow;
+}
+.red{
+    color: red;
+}
+.part-1{
+    font-size: 30px;
+}
+/* id Selecter */
+#identity{
+    background-color: red;
+}

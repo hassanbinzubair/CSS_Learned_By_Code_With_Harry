@@ -1,0 +1,22 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+/* Transitions are use to change property values smoothly, over a given time */
+.box {
+  height: 100px;
+  width: 100px;
+}
+.box1 {
+  background-color: red;
+  transform: rotate(45deg);
+  /* ms stands for miliseconds & s stands for seconds */
+  transition-duration: 500ms;
+  transition-timing-function: ease-in;
+  transition-property: transform;
+  transition-delay: 600ms;
+  /* transform-origin: bottom; Establishes the origin of transformation for an element */
+
+  /*        Duration Delay  t-f    Property  */
+  transition: 1500ms 500ms ease-in transform; /* Shorthand property combines four of the transition properties into a single property */
+}

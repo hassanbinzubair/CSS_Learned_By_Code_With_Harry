@@ -1,0 +1,27 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.container {
+    border: 2px solid black;
+    height: 99vh;
+  background-color: aquamarine;
+}
+.box {
+    border: 2px solid black;
+    background-color: cadetblue;
+    height: 20vh;
+}
+/* @media is use to aply css only when a certain condition is true */
+@media (max-width: 1000px) {
+  .container {
+    border: 2px solid blue;
+    height: 99vh;
+    background-color: orange;
+  }
+  .box {
+    border: 2px solid black;
+    background-color: orangered;
+    height: 20vh;
+  }
+}

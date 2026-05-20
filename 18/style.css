@@ -1,0 +1,38 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  background-color: blue;
+  color: white;
+}
+/* These Properties & Selectors are use to costomize Scrollbar. */
+/* Scrollbar */
+::-webkit-scrollbar {
+  width: 30px;
+  background-color: darkblue;
+}
+/* Scrollbar's thumb button */
+::-webkit-scrollbar-thumb {
+  background-color: green;
+}
+/* Scrollbar's up & down Button */
+::-webkit-scrollbar-button{
+    background-color:red;
+}
+/* Scrollbar's Track */
+::-webkit-scrollbar-track-piece{
+
+background-color:goldenrod ;
+}
+/* To Scroll Smoothly */
+*{
+    scroll-behavior: smooth;
+}
+.goto{
+    background-color: aqua;
+    color: red;
+}
+#goto{
+    font-size: 30px;
+}

@@ -1,0 +1,32 @@
+.container{
+    /* Pixels (px) are related fo the Vicwing devict.
+for a device with 8ire 19208 1080, 1ex is 1 unit ouf of 1o8o /1920 */
+    font-size: 34px;
+}
+.box{
+    /* em is a Unit relative to the parent font Size em means my parent element's font Size */
+    font-size: 0.7em;
+}
+.box2{
+    /* rem is a Unit relative to the root font size  (<Html> tag) */
+    font-size: 3rem;
+}
+.main{
+    background-color: aqua;
+    /* vw & vw are units relative to view port */
+    height: 100vh;
+    width: 50vw;
+}
+
+.min-max{
+    background-color: aquamarine;
+    height: 60vh;
+    min-height: 400px;
+}
+.min-max2{
+    background-color: blueviolet;
+    height: 50vh;
+    width: 90vw;
+    max-width: 800px;
+    margin: auto;
+}

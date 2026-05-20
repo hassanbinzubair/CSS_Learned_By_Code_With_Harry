@@ -1,0 +1,8 @@
+ul li {
+  /* There are more than 60 list styles, i tested them on by Browser */
+  list-style: arabic-indic;
+  list-style-type: arabic-indic;
+  list-style-position: inside;
+  /* For List Image Allways use svg for clear result in tiny size ( 10x10px image is Recommended) */
+  list-style-image: url(list.png);
+}

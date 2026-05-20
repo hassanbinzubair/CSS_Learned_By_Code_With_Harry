@@ -1,0 +1,24 @@
+.box {
+  background-color: yellow;
+  /* height is use to set the height of element  */
+  height: 300px;
+  /* width is use to set the width of element  */
+  width: 300px;
+  /* padding: 10px; */
+  /* margin: auto; */
+  /* padding is use to set the padding of element */
+  padding: 20px 10px 20px 10px;
+  /* margin is use to set the margin of element */
+  margin: 20px 10px 20px 10px;
+  /* border is use to add the border on element */
+  border: 10px /*border's width*/ double /*border's style*/ black
+    /*border's color*/;
+  /* border: 10px solid black; */
+  /* border: 10px dotted black; */
+  /* border: 10px dashed black; */
+  /* outline is use to add the outline on element */
+  outline: 5px dotted red;
+  outline-offset: 5px; /* Offset the outline and draw it beyond the border edge.*/
+  border-radius: 10px; /*Defines the radius of the outer border edge.*/
+  box-sizing: border-box; /*Specifies the behavior of the 'width' and 'height' properties.*/
+}

@@ -1,0 +1,10 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  background-color: blue;
+  /* To set A filter on Background */
+  backdrop-filter: blur(10px);
+  /* to set A filter on an Element (Picture etc) */
+  filter: invert();
+}

@@ -1,0 +1,41 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.box {
+  background-color: yellow;
+  height: 150px;
+  width: 150px;
+  border: 2px solid red;
+  margin: 50px;
+}
+/* tranform is use to rotate, skew, move or scale elements */
+/* These all tranforms have X & Y & Z axis Just like Ratate */
+.box1 {
+  transform: translateX(30px);
+  /* transform: translateY(30px); */
+}
+.box2 {
+  transform: rotate(10deg);
+}
+.box3 {
+  transform: scaleX(120%);
+}
+.box4 {
+  transform: scaleY(120%);
+}
+.box5 {
+  transform: skew(12deg);
+}
+.box6 {
+  transform: matrix(1, 0, 0, 1, 0, 0);
+}
+.box7 {
+  transform: rotateX(100deg);
+}
+.box8 {
+  transform: rotateY(100deg);
+}
+.box9 {
+  transform: rotateZ(10deg);
+}

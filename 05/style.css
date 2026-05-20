@@ -1,0 +1,112 @@
+* {
+  padding: 0;
+  margin: 0;
+  transition: 500ms;
+}
+.a1 {
+  background-color: aqua;
+  display: inline;
+}
+.a2 {
+  background-color: aquamarine;
+  display: inline;
+}
+.a3 {
+  background-color: yellow;
+  display: inline;
+}
+.a4 {
+  background-color: red;
+
+  display: inline;
+}
+.a5 {
+  background-color: purple;
+  display: inline;
+}
+
+.b1 {
+  background-color: aqua;
+  display: block; /*Default in div*/
+}
+.b2 {
+  background-color: aquamarine;
+  display: block; /*Default in div*/
+}
+.b3 {
+  background-color: yellow;
+  display: block; /*Default in div*/
+}
+.b4 {
+  background-color: red;
+  display: block; /*Default in div*/
+}
+.b5 {
+  background-color: purple;
+  display: block; /*Default in div*/
+}
+.c1 {
+  background-color: aqua;
+  display: inline-block; /*Default in div*/
+  width: 200px;
+  height: 100px;
+}
+.c2 {
+  background-color: aquamarine;
+  display: inline-block; /*Default in div*/
+  width: 200px;
+  height: 100px;
+}
+.c3 {
+  background-color: yellow;
+  display: inline-block; /*Default in div*/
+  width: 200px;
+  height: 100px;
+}
+.c4 {
+  background-color: red;
+  display: inline-block; /*Default in div*/
+  width: 200px;
+  height: 100px;
+}
+.c5 {
+  background-color: purple;
+  display: inline-block; /*Default in div*/
+  width: 200px;
+  height: 100px;
+}
+.d1 {
+  background-color: aqua;
+  /* display: none ; */
+  visibility: hidden;
+  width: 200px;
+  height: 100px;
+}
+.d2 {
+  background-color: aquamarine;
+  /* display: none ; */
+  visibility: hidden;
+  width: 200px;
+  height: 100px;
+}
+.d3 {
+  background-color: yellow;
+  /* display: none ; */
+  visibility: hidden;
+  width: 200px;
+  height: 100px;
+}
+.d4 {
+  background-color: red;
+  /* display: none ; */
+  visibility: hidden;
+  width: 200px;
+  height: 100px;
+}
+.d5 {
+  background-color: purple;
+  /* display: none ; */
+  visibility: hidden;
+  width: 200px;
+  height: 100px;
+}

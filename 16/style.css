@@ -1,0 +1,67 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.box {
+  border: 2px solid;
+  height: 50px;
+}
+.box1 {
+  border-color: aqua;
+  background-color: yellow;
+  animation-name: colored; /* name of an animation*/
+  animation-duration: 3s; /* how long animation run ?*/
+  animation-timing-function: ease-in; /*Determines speed urve of the animation*/
+  animation-delay: 1s; /* delay for the start of an animation*/
+  animation-iteration-count: infinite; /* number of time an animation should run */
+  animation-direction: normal; /* specify the direction of the animation*/
+}
+.box2 {
+  border-color: saddlebrown;
+  background-color: yellow;
+  /* The animation shorthand */
+  animation: colorblink 10s ease-in 1s infinite normal;
+}
+/* @keyframes is a rule to change the animation from a given style o a new style */
+@keyframes colored {
+  from {
+    background-color: brown;
+  }
+  to {
+    background-color: blueviolet;
+  }
+}
+/* we can also use 0% to 100% as alternate of from & to */
+/* color is just for example we can use any ss property as animation just like width,list-style & transform etc */
+@keyframes colorblink {
+  10% {
+    background-color: red;
+  }
+  20% {
+    background-color: yellow;
+  }
+  30% {
+    background-color: blue;
+  }
+  40% {
+    background-color: green;
+  }
+  50% {
+    background-color: orange;
+  }
+  60% {
+    background-color: purple;
+  }
+  70% {
+    background-color: gold;
+  }
+  80% {
+    background-color: black;
+  }
+  90% {
+    background-color: gray;
+  }
+  100% {
+    background-color: skyblue;
+  }
+}

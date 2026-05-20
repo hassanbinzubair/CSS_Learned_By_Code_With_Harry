@@ -1,0 +1,35 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+.container {
+    /* The element generates a principal grid container box, and establishes a grid formatting context */
+    display: grid;
+    /* All direct children automatically becomes grid items */
+  row-gap: 5px; /* The row-gap CSS property specifies the gutter between grid rows */
+  column-gap: 10px; /* Sets the gap between columns. If there is a column rule between columns, it will appear in the middle of the gap */
+  gap: 10px 5px; /* The gap CSS property is a shorthand property for row-gap and column-gap specifying the gutters between grid rows and columns */
+
+  background-color: orange;
+  grid-template-columns: auto auto; /* specifies, as a space-separated track list, the line names and track sizing functions of the grid */
+  grid-template-rows: auto auto; /* specifies, as a space-separated track list, the line names and track sizing functions of the grid */
+    /* the justify content property is used to align the whole grid inside the container */
+    /* the align content property is used to vertically align the whole grid inside the container */
+}
+.box{
+  border: 1px solid black;
+}
+.box1 {
+  background-color: red;
+  grid-column: 1 /span 2 ; /* the grid column property defines how many columns an item will span */
+}
+.box2 {
+  background-color: yellow;
+  grid-row: 2 / 4;
+}
+.box3 {
+  background-color: blue;
+}
+.box4 {
+  background-color: green;
+}

@@ -1,0 +1,40 @@
+.color1 {
+  /* background-color sets the background color of an element */
+  background-color: blue;
+  /* color sets the color of an element */
+  /* we can set the colors by there name red, yellow, blue , golden etc. */
+  color: burlywood;
+}
+.color2 {
+  /* we can set colors by there HEX value #fff */
+  background-color: #6f00ff;
+  /* we can set colors by there RGB value rgb(230, 206, 210) */
+  color: rgb(135, 222, 138);
+}
+.color3 {
+  /* we can set colors by there HSL value hsl(152, 66%, 45%) */
+  background-color: hsl(43, 74%, 49%);
+  color: hwb(120 0% 61%);
+}
+.color4 {
+  /* we can set the image as background by using background-image */
+  background-image: url(my\ Img\ Anime.png);
+  height: 300px;
+}
+.color5 {
+  background-image: url(my\ Img\ Anime.png);
+  height: 300px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.color6 {
+  background-image: url(my\ Img\ Anime.png);
+  height: 300px;
+  /* these are some background settings */
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+/* We can also able to use background: red */
