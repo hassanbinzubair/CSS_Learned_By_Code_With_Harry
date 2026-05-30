@@ -4,10 +4,6 @@
 
 This repository contains CSS code and projects that I learned through **Code With Harry's YouTube Tutorials**, PDF notes, websites, and other learning resources. It showcases my journey from beginner to advanced CSS concepts.
 
-## Repository Language Composition
-
-- **HTML**: 79.2%
-- **CSS**: 20.8%
 
 ## Learning Path
 
